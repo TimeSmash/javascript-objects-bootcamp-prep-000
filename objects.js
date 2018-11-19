@@ -6,6 +6,8 @@ var playlist = {['Amy Winehouse']: "Rehab",
 
 function updatePlaylist (object, key, value) {
 object[key] = value;
-return playlist;
+return object;
 }
+
+
 
