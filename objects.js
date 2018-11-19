@@ -4,6 +4,8 @@
 var playlist = {['Amy Winehouse']: "Rehab", 
 ['No Doubt']: "Don't Speak"};
 
-function updatePlaylist (object, artist , song) {
-object['artist'] = "song"
+function updatePlaylist (object, key, value) {
+object[key] = value;
+return playlist;
 }
+
